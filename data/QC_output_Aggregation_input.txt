@@ -1,0 +1,4 @@
+Quality Control Sample Output
+Output Pass1: ['vocaroo1.com']
+Output Pass2: ['vocaroo1.com']
+Output Pass3: ['cat']
