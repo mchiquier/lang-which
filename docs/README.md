@@ -1,5 +1,7 @@
 # README:
 
+## Steps of Original Project
+
 ### 1. Language Set:
 We are going to begin by deciding the specific set of languages that the workers will be asked to pronounce. This decision is going to be based on multiple factors. First, we need to determine what languages are feasible for MTurk workers, based on the languages that the MTurk workers speak. We are also going to make sure that we have a wide range of origins for the languages we choose, because if all of the languages are too similar the CNN model will have more difficulty differentiating them. *(1 point)*
 
@@ -25,3 +27,39 @@ In the aggregation step, we are going to use the quality rankings of each worker
 This model will be composed of grey-scale images. In order to keep the size of the input grey-scale images constant, we will take the audio of all the words of the same language and concatenate them together, make one giant long spectrogram, and divide that spectrogram evenly such that all the images are equal in size. After a few convolutional layers, there will be a fully connected layer whose activation function will classify which of the languages this language belongs to. *(4 points)*
 
 **Total points: 18**
+
+## Updates to README for Deliverable 2:
+
+### Changes Made
+After reviewing our steps and the time allotted to complete the project, we decided to make several changes. First, we are going to eliminate the machine learning aspect of this project, as we want to focus on getting accurate data and creating a strong database rather than stretching ourselves too thin in terms of how much time we have. As a result of this change, we are now going to have three passes. 
+
+Our first pass is going to involve demographics and data collection. We will ask what language the worker speaks, their gender, and native languages. Then, we are going to have them record themselves using vocaroo.com pronouncing single words in their native languages.
+
+Our second pass focuses on checking if the sound recording is good through other workers. We want workers to listen to audio clips, and specify whether they believe the HIT was good quality.
+
+Our third pass will have workers rate audio recordings as “good” or “bad” based on if the pronunciations are correct in the audio recordings.
+
+### QC
+For our quality control method, we chose to determine which workers were best and use only the data from those selected workers.  For pass one, there are two control answers that must match for the worker to be considered “good” and for his/her results to be counted.  The first control is that there will be five sentences written out in 5 different languages, and the turker will need to select the one in the language that is appropriate for that HIT.  The second control is that there will be a phrase in the appropriate language that has its words scrambled, and the turker must select the combination that makes the most sense.  For example, “like I dogs”, “dogs like I”, “like dogs I”, and “I like dogs” would clearly be “I like dogs.”
+
+For the second pass there is one control, in which the turkers will say if an audio recording is “good” or “bad” quality, and their answer must match our rating.  Our rating is based on if there is a lot of background noise or if the sound is clear and loud enough.
+
+For the third pass, there will be one control.  Turkers will listen to an audio clip of one word, and type out how they believe it is pronounced.  For example, a clip saying “taxi” will accept answers of: “taxi, taksi, taksee, tacksee”.
+
+### Aggregation
+For aggregation, we want to make sure we can keep track of each worker that completes our HITs. As a result, we are going to create a file called ‘aggregation_output.csv’ that contains all of the information on the workers. This will include the workerId, which is unique to the worker, and demographics about the worker. When we are running our data and analyzing, this will make it easier to identify the chosen and native languages of each worker. 
+
+### Raw Data
+The raw data is the dictionary of words that we would like to be pronounced by the turkers in pass one. This is available in the bilingual dictionary provided to us by our professor. It is titled ‘dictionaries.tar.gz’. 
+
+### Sample Input for QC
+The three sample inputs are nets213DummyDataFinalCSV1.csv, nets213DummyDataFinalCSV2.csv, and nets213DummyDataFinalCSV3.csv.
+
+### Sample Output for QC
+Pass one outputs vocaroo.com urls.  Pass two outputs vocaroo.com urls.  Pass three outputs strings.  The sample is in QC_output_Aggregation_input.txt.
+
+### Sample Input for Aggregation
+Pass one outputs vocaroo.com urls.  Pass two outputs vocaroo.com urls.  Pass three outputs strings.  The sample is in QC_output_Aggregation_input.txt.
+
+### Sample Output for Aggregation
+The output of the aggregation, which is titled ‘Aggregation_Output.csv’ is going to contain the demographics of the workers: WorkerId, chosen_language, gender, and native_language. 
