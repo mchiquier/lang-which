@@ -75,3 +75,9 @@ The output of the aggregation, which is titled ‘Aggregation_Output.csv’ is g
 - After you received the qualification, you will be able to accept the  HIT for the real qualification-test for that language. Note that you have to click "accept" on the error that the links initially display. 
 - English: https://workersandbox.mturk.com/projects/38FT9G80EMR0HYW7W7BW5LAC55YHLC/tasks/3J6BHNX0U9BG2O1PWZJYLN86VXOKNM?assignment_id=3E7TUJ2EGD5QL0PETAJ7NTEDC9K9D0&auto_accept=true
 - All HITs can be found at: https://workersandbox.mturk.com/requesters/A2C1UPBEGUY9Y6/projects
+
+- ALSO NOTE: Passes 2 and 3 are set up in Mturk Sandbox but are not published yet because they need to be run with data collected from Pass 1
+
+### Analysis Planned
+
+- Our final product will be the data collected.  However, we will do some simple analysis of the data by graphing correct pronunciations of words by gender and native language.
