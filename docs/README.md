@@ -65,19 +65,20 @@ Pass one outputs vocaroo.com urls.  Pass two outputs vocaroo.com urls.  Pass thr
 The output of the aggregation, which is titled ‘Aggregation_Output.csv’ is going to contain the demographics of the workers: WorkerId, chosen_language, gender, and native_language. 
 
 ## Updates to README for Deliverable 3:
-
+## README #1: 
 ### Click on : 
 
 - Depending on which language you can speak (english,french,spanish) you will click on a different HIT. The name of the HIT's language will be in the title. This process is 2-part. First you will do a HIT that is a qualification HIT - to make sure you really  speak the language that you say you do. Note that you have to click "accept" on the error that the links initially display. 
-- English: https://workersandbox.mturk.com/projects/3PR0UJAG0Q0UM887TMZJP6XK1GTHJA/tasks/3M93N4X8HK6I7HNCMA08J2IZ37WSJ7?assignment_id=31IBVUNM9TILGRGDNHJT3B6VFEJFVX&auto_accept=true
-- After clicking on the HIT you will be taken to a qualification test page that will ask you a few questions to make sure that you do in fact speak the language.
+-Both qualification and real data collection HITS can be found here: https://workersandbox.mturk.com/requesters/A2C1UPBEGUY9Y6/projects
+- Example: If you decide for English to be the language you want to do the HIT in: Click on English Qualification Test
+- After clicking, you will be taken to a qualification test page that will ask you a few questions to make sure that you do in fact speak the language.
 - If you passed the test,you will  be assigned the qualification. Once and if you are assigned the qualification you won't need to ever take the test again - no matter how many times you would like to redo the HIT for that language. If you fail though, you will no longer be able to try the qualification test for that language. 
 - After you received the qualification, you will be able to accept the  HIT for the real qualification-test for that language. Note that you have to click "accept" on the error that the links initially display. 
-- English: https://workersandbox.mturk.com/projects/38FT9G80EMR0HYW7W7BW5LAC55YHLC/tasks/3J6BHNX0U9BG2O1PWZJYLN86VXOKNM?assignment_id=3E7TUJ2EGD5QL0PETAJ7NTEDC9K9D0&auto_accept=true
-- All HITs can be found at: https://workersandbox.mturk.com/requesters/A2C1UPBEGUY9Y6/projects
+- Go back to https://workersandbox.mturk.com/requesters/A2C1UPBEGUY9Y6/projects and click on "Record Pronouncations of Words in English".
+-Answer the questions and then record yourself pronouncing the words prompted by going to the vocaroo website provided. Your recording will be saved as a URL and you are to copy paste that URL back into the HIT text box underneath the word prompt. 
 
 - ALSO NOTE: Passes 2 and 3 are set up in Mturk Sandbox but are not published yet because they need to be run with data collected from Pass 1
 
-### Analysis Planned
+### README 2: Analysis Planned
 
-- Our final product will be the data collected.  However, we will do some simple analysis of the data by graphing correct pronunciations of words by gender and native language.
+Our final product will be the data collected.  However, first we will automatically determine who has the correct language skills based on the qualification HIT. Then, we will extract the good recordings and eliminate the bad recordings based on the aformentioned qualification test. Lastly, we will do some simple analysis of the data by graphing correct pronunciations of words by gender and native language. We will automatically determine who has the correct language skills based on the qualification HIT
