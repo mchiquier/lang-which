@@ -1,0 +1,58 @@
+,Word,Mispronunciations
+1,porque,"['porqué', 'porquè', 'por que']"
+2,cual,"['cuál', 'juan']"
+4,sí,"['si', 'sì']"
+5,relación,"[""felacio'n"", 'velacion']"
+6,comisión,"['commission', 'colision']"
+7,región,"[""teio'n"", 'region']"
+9,que,['qué']
+11,ciudad,['cuidad']
+15,el,['él']
+19,misma,['mesa']
+20,meses,"['veces', 'peces', 'peces / meses']"
+24,maría,['maria']
+25,a,['ha']
+26,han,['un']
+28,será,"['fera', 'sera']"
+29,tema,['dema']
+30,aún,['aun']
+31,realidad,['reañal']
+32,conocer,['bonasera']
+34,calle,"['cache', 'h', 'calle (south american accent,i believe argentina, they spell the "" ll "" different)']"
+50,aquí,['aqui']
+52,jóvenes,['jovenes']
+54,alumnos,['alumno']
+56,otra,['otras']
+63,situación,['situacion']
+65,cuales,['cuáles']
+69,ciento,['siento']
+70,al,['han']
+76,apoyo,['apoggio']
+89,análisis,['analisis']
+90,como,['colmo']
+92,según,['segun']
+95,hizo,"['final', 'piso']"
+99,mano,['mami']
+109,dirección,['direccion']
+113,si,"['sí', 'sin ??']"
+115,ley,['leí ??']
+116,pasado,['asado']
+119,realizar,['alzar']
+121,red,['fre']
+125,solo,['sólo']
+126,fin,['sin']
+130,capital,"['capitán', 'capitan']"
+131,tenía,['tenia']
+133,fue,"['fué', 'feo']"
+136,educación,['educacion']
+139,escuela,['escuela / espuela']
+140,economía,['economia']
+145,investigación,"['investigation', 'investigacion']"
+146,interés,['interes']
+147,cuando,['cuándo']
+150,él,"['el', 'él ??']"
+154,luis,['luís']
+156,etc.,"['etcetera', 'etcétera']"
+158,qué,['que']
+159,días,['dias']
+165,sería,['seria']
